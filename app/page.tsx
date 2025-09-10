@@ -65,6 +65,24 @@ const blogPosts = [
   },
   {
     id: 2,
+    title: 'App Builder AI Agents: From Idea to Production in Minutes',
+    slug: 'app-builder-ai-agents-case-study',
+    excerpt: 'Watch 6 specialized AI agents collaborate to build complete applications from natural language requirements. See real-time code generation, testing, and deployment in action.',
+    category: 'Case Studies',
+    tags: ['App Builder', 'Code Generation', 'Multi-Agent Systems', 'AI Development'],
+    author: {
+      name: 'SuperIntelAgents Team',
+      role: 'AI Development Team',
+      avatar: '/authors/team.jpg',
+      bio: 'Building the future of AI agent development with visual, no-code tools'
+    },
+    readingTime: '10 min read',
+    publishedAt: '2025-01-16',
+    featured: true,
+    image: '/blog/app-builder-case-study.jpg'
+  },
+  {
+    id: 3,
     title: 'How to Build Your First AI Agent in 2025: Complete Guide',
     slug: 'how-to-build-ai-agent-complete-guide-2025',
     excerpt: 'Learn how to build AI agents from scratch using SuperIntelAgents.ai. This comprehensive guide covers agent architecture, tool integration, memory systems, and deployment strategies for autonomous AI agents.',
@@ -78,11 +96,11 @@ const blogPosts = [
     },
     readingTime: '12 min read',
     publishedAt: '2025-01-08',
-    featured: true,
+    featured: false,
     image: '/blog/build-ai-agent-hero.jpg'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Multi-Agent Systems: Orchestrating AI Agents for Enterprise Automation',
     slug: 'multi-agent-systems-enterprise-automation',
     excerpt: 'Discover how multi-agent systems transform enterprise workflows. Learn agent collaboration patterns, communication protocols, and real-world implementation strategies.',
@@ -100,7 +118,7 @@ const blogPosts = [
     image: '/blog/multi-agent-systems.jpg'
   },
   {
-    id: 4,
+    id: 5,
     title: 'AI Agent Frameworks Comparison: LangChain vs AutoGen vs CrewAI',
     slug: 'ai-agent-frameworks-comparison-2025',
     excerpt: 'In-depth comparison of top AI agent frameworks. Performance benchmarks, feature analysis, and recommendations for different use cases.',
@@ -118,7 +136,7 @@ const blogPosts = [
     image: '/blog/framework-comparison.jpg'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Building Customer Support AI Agents That Actually Work',
     slug: 'customer-support-ai-agents-best-practices',
     excerpt: 'Real-world guide to deploying AI agents for customer support. Includes prompt engineering, tool integration, and handling edge cases.',
@@ -136,7 +154,7 @@ const blogPosts = [
     image: '/blog/customer-support-agents.jpg'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Agent Memory Systems: Short-term, Long-term, and Vector Databases',
     slug: 'ai-agent-memory-systems-guide',
     excerpt: 'Deep dive into AI agent memory architectures. Learn how to implement persistent memory, context management, and knowledge retrieval.',

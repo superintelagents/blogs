@@ -114,6 +114,16 @@ const categoryData = {
       },
       {
         id: 2,
+        title: 'App Builder AI Agents: From Idea to Production in Minutes',
+        slug: 'app-builder-ai-agents-case-study',
+        excerpt: 'Watch 6 specialized AI agents collaborate to build complete applications from natural language requirements. See real-time code generation, testing, and deployment in action.',
+        author: 'SuperIntelAgents Team',
+        publishedAt: '2025-01-16',
+        readingTime: '10 min read',
+        featured: false
+      },
+      {
+        id: 3,
         title: 'Building Customer Support AI Agents That Actually Work',
         slug: 'customer-support-ai-agents-best-practices',
         excerpt: 'Real-world guide to deploying AI agents for customer support. Includes prompt engineering, tool integration, and handling edge cases.',
