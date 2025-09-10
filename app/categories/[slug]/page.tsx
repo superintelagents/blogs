@@ -95,6 +95,34 @@ const categoryData = {
         featured: true
       }
     ]
+  },
+  'case-studies': {
+    title: 'Case Studies',
+    description: 'Real-world implementations and demos of AI agent systems in action.',
+    icon: BookOpen,
+    color: 'blue',
+    posts: [
+      {
+        id: 1,
+        title: 'Customer Service AI Agents: Live Case Study & Open Source Demo',
+        slug: 'customer-service-ai-agents-case-study',
+        excerpt: 'See how to build a powerful customer service AI agent network in minutes. Live demo with 5 specialized agents, single API endpoint, and real-time coordination.',
+        author: 'SuperIntelAgents Team',
+        publishedAt: '2025-01-15',
+        readingTime: '8 min read',
+        featured: true
+      },
+      {
+        id: 2,
+        title: 'Building Customer Support AI Agents That Actually Work',
+        slug: 'customer-support-ai-agents-best-practices',
+        excerpt: 'Real-world guide to deploying AI agents for customer support. Includes prompt engineering, tool integration, and handling edge cases.',
+        author: 'Emily Watson',
+        publishedAt: '2025-01-05',
+        readingTime: '10 min read',
+        featured: false
+      }
+    ]
   }
 }
 
